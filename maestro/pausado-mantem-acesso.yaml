@@ -1,0 +1,10 @@
+appId: com.apexpro.app
+---
+- launchApp:
+    clearState: true
+- tapOn: "Seu usuário ou e-mail"
+- inputText: "${ALUNO_LOGIN}"
+- tapOn: "Sua senha"
+- inputText: "${ALUNO_SENHA}"
+- tapOn: "Entrar na conta"
+- assertNotVisible: "ACESSO SUSPENSO"

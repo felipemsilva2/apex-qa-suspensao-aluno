@@ -1,0 +1,13 @@
+{
+  "name": "apex-qa-suspensao-aluno",
+  "private": true,
+  "scripts": {
+    "test:e2e": "cypress run",
+    "appium:start": "appium",
+    "test:appium:suspenso": "node --test appium/acesso-suspenso.e2e.mjs"
+  },
+  "devDependencies": {
+    "cypress": "^15.20.0",
+    "webdriverio": "^9.31.1"
+  }
+}
