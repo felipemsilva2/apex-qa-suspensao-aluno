@@ -1,4 +1,4 @@
-# Suspensão de aluno — QA Apex
+# Suspensão de aluno - QA Apex
 
 Validação do fluxo de suspensão de aluno no painel do coach e do bloqueio apresentado no app mobile.
 
